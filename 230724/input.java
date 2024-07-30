@@ -6,6 +6,8 @@ public class input {
         System.out.println("Enter username: ");
         userName=myObj.nextLine();
         System.out.println("Username is "+ userName);
+        myObj.close();
+        
     }
     
 }
